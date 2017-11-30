@@ -37,6 +37,24 @@ HEAD指向的版本就是当前版本，因此，git允许我们在版本的历�
 
 ## 小结：
 
+提交远程仓库的步骤：
+
+初始化git: <font style="color:red;">`git init`</font>
+
+添加文件到暂存区：<font style="color:red">`git add file`</font>
+
+提交文件：<font style="color:red;">`git commit -m "提交内容情况注释"`</font>
+
+拉去远程仓库地址：
+<font style="color:red;">`git remote add origin git@github.com:用户名/gitNotes.git`</font>  （这里以github为例子）
+
+把本地库的内容推送到远程：
+
+<font style="color:red;">`git push -u origin master`</font>
+
+远程库的名字就是`origin`,第一次推送`master`分支时，加上`-u`参数。后续提交本地文件，直接用命令：<font style="color:red;">git push origin master</font>
+
+
 
 
 
