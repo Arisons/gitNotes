@@ -70,6 +70,20 @@ HEAD指向的版本就是当前版本，因此，git允许我们在版本的历�
 	`
 <font style="color:red">`git branch`</font> 命令用于查看当前分支和列出所有分支。
 
+git 鼓励大量使用分支：
+查看分支：<font style="color:red;">`git branch`</font>
+
+创建分支：<font style="color:red;">`git branch <name>`</font>
+
+
+切换分支：<font style="color:red;">`git checkout <name>`</font>
+
+创建+切换分支：<font style="color:red;">`git checkout  -b <name>`</font>
+合并某分支到当前分支：<font style="color:red;">`git merge <name>`</font>
+
+删除分支：<font style="color:red;">`git branch -d <name>`</font>
+
+
 
 
 
