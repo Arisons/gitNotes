@@ -83,6 +83,16 @@ git 鼓励大量使用分支：
 
 删除分支：<font style="color:red;">`git branch -d <name>`</font>
 
+### 7、查看远程库的信息
+##小结:
+* 用命令查看远程库信息 <font style="color:red;">`git remote -v`</font>
+* 本地新建的分支如果不推送到远程，对其他人就是不可见的；
+* 从本地推送分支，使用<font style="color:red;">`git push origin branch-name`</font>,如果推送失败，先用<font style="color:red;">``git pull</font>抓取远程的新提交；
+* 在本地创建和远程分支对应的分支，使用<font style="color:red;">`git checkout -b branch-name origin/branch-name`</font>,本地和远程分支的名称最好一致；
+* 建立本地分支和远程分支的关联，使用<font style="color:red;">`git branch --set upstream branch-name origin/branch-name`</font>
+* 从远程抓取分支，使用<font style="color:red;">`git pull`</font>,如果有冲突，要先处理冲突。
+
+
 
 
 
