@@ -77,6 +77,13 @@ git branch --set-upstream-to=origin/远程分支的名字 本地分支的名字
 `http://www.jianshu.com/p/f7f4142a1556`
 
 
+## 如果一个文件不小心被删除了，可以有两种方法恢复：
+### 1、需要记住所需恢复文件的名字和版本号(commit id)
+     git checkout commit_id -- file_name
+
+如果不加commit_id，那么git checkout -- file_name 表示恢复文件到本地版本库中最新的状态。
+
+
 
 
 
